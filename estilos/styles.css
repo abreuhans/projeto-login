@@ -68,6 +68,25 @@ div.campo > label {
     display: none;
 }
 
+div.campo > span {
+    color: white;
+    /* background-color: black; */
+    font-size: 1.5em;
+    width: 30px;
+    padding: 4px;
+    transform: translateY(-3px);
+}
+
+div.campo > input {
+    font-size: 1em;
+    height: 100%;
+    border: 0px;
+    border-radius: 5px;
+    padding: 4px;
+    width: calc(100% - 35px);
+    transform: translateY(-9px);
+}
+
 form > div.campo {
     display: block;
     align-items: center;
@@ -76,6 +95,7 @@ form > div.campo {
     height: 30px;
     border-radius: 5px;
     background-color: #5f2c82;
+    border: 2.5px solid #5f2c82;
 
 }
 
